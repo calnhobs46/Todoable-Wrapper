@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'todo_wrapper'
+require 'todoable_wrapper'
 require 'webmock/rspec'
 
 RSpec.configure do |config|

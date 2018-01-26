@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "todo_wrapper/version"
+require "todoable_wrapper/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "todo_wrapper"
-  spec.version       = TodoWrapper::VERSION
+  spec.name          = "todoable_wrapper"
+  spec.version       = TodoableWrapper::VERSION
   spec.authors       = ["Charlotte"]
   spec.email         = ["char.a.clark@gmail.com"]
 
